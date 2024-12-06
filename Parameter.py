@@ -19,4 +19,4 @@ def login():
       return render_template('login.html')
 
 if __name__ == '__main__':
-   app.run(debug = True)
+   app.run('0.0.0.0',Port="8080")
